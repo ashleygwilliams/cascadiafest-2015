@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|Lato:900|Merriweather:400,900,400italic);
+
+body {
+  font-family: 'Merriweather';
+  font-weight: 400;
+}
+
+.title > h1 {
+  color: white;
+  text-shadow: 3px 1px 0px #B8860B;
+}
+
+.title > h3 {
+  color: #B8860B;
+  text-shadow: 2px 1px 0px #ffffff;
+}
+
+.tc39 {
+  position: absolute;
+  top: 120px;
+  left: 400px;
+}
+
+.abstraction {
+  display: block;
+  position: absolute;
+  top: 380px;
+  left: 357px;
+  font-weight: 900;
+}
+
+.no {
+  position: absolute;
+  top: -112px;
+  left: 0;
+}
+
+.highlight {
+  text-shadow: 3px 1px 0px #B8860B;
+}
+
+h1, h2 {
+  font-family: 'Merriweather';
+  font-weight: 900;
+}
+
+/* header title */
+h4 {
+  font-family: 'Lato';
+  font-weight: 900;
+  color: #c3322f;
+  font-size: 1.5em;
+}
+
+/* author */
+h3 {
+  text-align: right;
+  margin-right: 50px;
+}
+
+h3::before {
+  content: '—';
+}
+
+/* source */
+h5 {
+  position: absolute;
+  bottom: 10px;
+  font-weight: 400;
+  margin-right: 20px;
+  font-size: 0.5em;
+}
+
+blockquote {
+  font-size: 2em;
+  font-style: italic;
+}
+
+blockquote::before {
+  content: '“';
+  position: absolute;
+  display: inline-block;
+  margin-left: -2.1em;
+  width: 2em;
+  text-align: right;
+  font-size: 90px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.remark-slide-content {
+  background-color: #caccc9;
+  position: relative;
+}
+
+.ruby-cow {
+  position: fixed;
+  top: 260px;
+  left: 100px;
+}
+
+.javascript-cow {
+  position: fixed;
+  top: 450px;
+  left: 100px;
+}
+
+.js-helmet {
+  position: fixed;
+  top: 150px;
+  left: 215px;
+}
+
+.ruby-helmet {
+  position: fixed;
+  top: 120px;
+  left: 460px;
+}
+
+.strikeout{
+  text-decoration: linethrough;
+}
+
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
